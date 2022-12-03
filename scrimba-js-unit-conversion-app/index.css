@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    width: 550px;
+    height: 729;
+    background: #e1e5f2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #355e77;
+}
+
+.top-panel {
+    width: 550px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    background-color: #457b9d;
+    align-items: center;
+}
+
+h2{ 
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+input {
+    margin-top: 23px;
+    margin-bottom: 20px;
+    width:125px;
+    height: 83px;
+    border: solid 1px white;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 55px;
+    background-color: #457b9d;
+    color: white;
+    text-align: center;
+}
+
+button {
+    width: 125px;
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #355e77;
+}
+
+.conversion-box {
+    height: 108px;
+    width: 500px;
+    margin: 25px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;page-break-inside: ;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.unit-bold-text {
+    font-weight: bold;    
+}
